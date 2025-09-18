@@ -13,6 +13,8 @@ public class BasicSelenium {
 		
 		driver.get("https://www.techlistic.com/p/selenium-practice-form.html");
 		
+		driver.navigate().refresh();
+		
 		driver.manage().window().maximize();
 		
 		// TODO Auto-generated method stub
