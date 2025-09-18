@@ -15,7 +15,11 @@ public class BasicSelenium {
 		
 		driver.navigate().refresh();
 		
+		
+		
 		driver.manage().window().maximize();
+		
+		driver.close();
 		
 		// TODO Auto-generated method stub
 
