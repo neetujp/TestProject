@@ -21,7 +21,7 @@ public class BasicSelenium {
 		
 		driver.close();
 		
-		driver.quit();
+	
 		
 		// TODO Auto-generated method stub
 
