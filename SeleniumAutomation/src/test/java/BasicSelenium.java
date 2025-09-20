@@ -17,6 +17,8 @@ public class BasicSelenium {
 		
 		driver.get("https://demoqa.com/");//
 		
+		driver.get("https://demoqa.com/");//
+		
 		//
 		
 		//
