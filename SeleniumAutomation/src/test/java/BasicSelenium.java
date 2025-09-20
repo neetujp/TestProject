@@ -11,7 +11,7 @@ public class BasicSelenium {
 		
 		
 		
-		driver.get("https://www.techlistic.com/p/selenium-practice-form.html");
+		driver.get("https://demoqa.com/");
 		
 		driver.navigate().refresh();
 		
@@ -20,6 +20,8 @@ public class BasicSelenium {
 		driver.manage().window().maximize();
 		
 		driver.close();
+		
+		driver.quit();
 		
 		// TODO Auto-generated method stub
 
