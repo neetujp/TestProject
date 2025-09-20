@@ -21,6 +21,8 @@ public class BasicSelenium {
 		
 		driver.navigate().refresh();
 		
+		driver.get("https://demoqa.com/");//
+		
 		
 		
 		driver.manage().window().maximize();
